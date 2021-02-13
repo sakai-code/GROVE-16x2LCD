@@ -29,7 +29,7 @@ namespace Grove16x2LCD {
         pins.i2cWriteBuffer(LCD_ADDR, cmd);
     }
 
-//% blockId=lcd_init block="画面を有効化して初期化"
+//% blockId=lcd_init block="画面を"
 //% group="DISPLAY"
 //% weight=100
     export function lcdInit(): void {
@@ -131,7 +131,7 @@ namespace Grove16x2LCD {
     
 //% group="DISPLAY"
 //% weight=50
-//% blockId=display_on  block="ディスプレイを付ける"
+//% blockId=display_on  block="ディスプレイの点ける"
     export function displayon(){
         
         
