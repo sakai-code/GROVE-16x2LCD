@@ -1,0 +1,13 @@
+basic.forever(function () {
+    Grove16x2LCD.lcdInit()
+    Grove16x2LCD.lcdClearScreen()
+    Grove16x2LCD.lcdWriteText("Hello", 0, 0)
+    Grove16x2LCD.cursor()
+    Grove16x2LCD.cursoroff()
+    Grove16x2LCD.shiftdisplayleft()
+    Grove16x2LCD.shiftdisplayright()
+    Grove16x2LCD.displayoff()
+    Grove16x2LCD.displayon()
+    Grove16x2LCD.rgbSetColor(bgColor.White)
+    Grove16x2LCD.rgbSetColorRaw(0, 0, 0)
+})
